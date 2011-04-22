@@ -1,0 +1,10 @@
+bin/hadoop dfs -put localsrc dst: Put directory at classlocalsrc on your local file system into dst in the HDFS.
+bin/hadoop dfs -get src localdst: Get directory at src in the HDFS and copy it to localdst on your local file system.
+bin/hadoop dfs -cat src: Output a file at src to the console.
+bin/hadoop dfs -ls path: Print the contents of the directory at path on the HDFS.
+bin/hadoop dfs -rmr path: Remove the file or directory path on the HDFS.
+
+
+http://knowledgejunk.com/2010/11/09/inverted-index-application-on-hadoop-mapreduce/
+http://www.umiacs.umd.edu/~jimmylin/Cloud9/docs/exercises/indexing.html
+
